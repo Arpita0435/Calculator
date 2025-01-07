@@ -23,10 +23,11 @@ body {
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 20px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: right;
     padding: 10px;
     box-sizing: border-box;
+    color: white;
 }
 
 .calculator-keys {
@@ -36,7 +37,7 @@ body {
 }
 
 button {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 15px;
     border: none;
     background: #1C1C1C;
