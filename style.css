@@ -11,19 +11,19 @@ body {
 .calculator {
     background: white;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    width: 300px;
+    width: 340px; /* Slightly wider for better button spacing */
 }
 
 .calculator-display {
     width: 100%;
-    height: 60px;
+    height: 70px;
     background: #1C1C1C;
     border: none;
     border-radius: 5px;
     margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: right;
     padding: 10px;
     box-sizing: border-box;
@@ -32,13 +32,13 @@ body {
 
 .calculator-keys {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+    gap: 15px; /* Add spacing between buttons */
 }
 
 button {
     font-size: 1.5rem;
-    padding: 15px;
+    padding: 20px; /* Bigger buttons for better usability */
     border: none;
     background: #4A4A4A;
     color: white;
@@ -69,7 +69,7 @@ button.clear:hover {
 
 button.equal {
     background: #34C759;
-    grid-column: span 4; /* Equal button spans the entire width */
+    grid-column: span 4; /* Equal button spans the full width */
 }
 
 button.equal:hover {
